@@ -1,0 +1,4 @@
+- la inceput/apasare shuffle se intorc toate cu spatele cu animatie flip apoi se afiseaza una dintre cards.
+cardul care arata cate numere trebuie highlighted sa fie si el highlighted/cu o umbra/aura
+-stilare dupa codepenu ala si animatie flip etc.
+-generare cat de multe carduri de stilu ala
