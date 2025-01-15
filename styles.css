@@ -208,8 +208,8 @@ body {
 }
 
 #text {
-    padding-right:60px;
-    padding-left:60px;
+    padding-right:2vh;
+    padding-left:2vh;
 }
 
 
@@ -229,6 +229,9 @@ body {
         font-size: 0.5em; /* Smaller font for corner */
     }
     
+    #text {
+        font-size:4vh;
+    }
     /* Use ::after for bottom-right corner */
  
     
