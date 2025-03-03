@@ -277,9 +277,19 @@
     function fillCards()
     {
       ///in loc sa umple pe card trebuie sa umple pe copilul card-front.
+      var frequencies = [0, 0, 0, 0, 0, 0, 0];
       for(let i =1; i<=24; i++)
       {
-        cardsArray[i] = getRandomCard();
+        
+        do
+        {
+          var randCard = getRandomCard();
+        }
+        while(frequencies[randCard]>=4)
+      
+        frequencies[randCard] ++;
+        cardsArray[i] = randCard;
+        
         
         if(cardsArray[i] == 1)
         {
